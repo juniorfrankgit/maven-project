@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps {
-                C:\Program Files\cmder\Cmder.exe 'mvn clean package'
+                Cmder 'mvn clean package'
             }
             post {
                 success {
